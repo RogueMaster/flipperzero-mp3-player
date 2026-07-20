@@ -1,0 +1,11 @@
+App(
+    appid="mp3_player",
+    name="Mp3 Player",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="app_main",
+    requires=["gui", "storage"],
+    stack_size=8192,
+    fap_version=(2, 12),
+    fap_category="Media",
+    fap_icon="music_icon.png",
+)

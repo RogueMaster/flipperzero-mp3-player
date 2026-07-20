@@ -78,6 +78,10 @@ Seeking resumes only if the song was playing before the hold; a paused song stay
 - **Volume** — same level used by Now Playing.
 - **Rescan library** — re-reads the folder named in `music_path.txt`.
 
+### About
+
+The About screen shows the version, credit, and the full pinout for both amplifier modules. It is longer than the screen, so it scrolls with **Up / Down**; chevrons on the right edge indicate more lines above or below. **Back** returns to the main menu.
+
 ## Configurable music folder
 
 During launch, before any library scan, the app creates this editable text file on the SD card if it does not already exist:
